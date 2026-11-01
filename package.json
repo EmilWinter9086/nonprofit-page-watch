@@ -1,0 +1,13 @@
+{
+  "name": "nonprofit-page-watch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node src/page_monitor.test.ts",
+    "watch": "node src/page_monitor.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
